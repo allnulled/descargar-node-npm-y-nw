@@ -35,3 +35,14 @@ Para usar `nw` en su versión `119.0.6045.105` solo puedes:
 ```sh
 ~/.node-webkit/nw/node_modules/.bin/nw --version
 ```
+
+### Últimos shorcuts
+
+Finalmente, para que todo quede como si funcionara correctamente, puedes añadir las siguientes 2 líneas en tu `~/.bashrc`:
+
+```sh
+alias nw=~/.node-webkit/nw/node_modules/.bin/nw
+alias npm=~/.nodejs/node/bin/npm
+```
+
+Así, tanto `npm` como `nw` funcionarán correctamente.
