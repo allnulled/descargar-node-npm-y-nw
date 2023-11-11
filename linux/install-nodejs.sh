@@ -2,7 +2,7 @@
 
 sudo rm /usr/bin/node
 sudo rm /usr/bin/npm
-curl -sL https://nodejs.org/dist/v20.9.0/node-v20.9.0-linux-x64.tar.xz -o node-v20.9.0-linux-x64.tar.xz
+curl -vsL https://nodejs.org/dist/v20.9.0/node-v20.9.0-linux-x64.tar.xz -o node-v20.9.0-linux-x64.tar.xz
 tar -xf node-v20.9.0-linux-x64.tar.xz
 sudo rm -rf ~/.nodejs
 sudo mkdir ~/.nodejs
