@@ -41,7 +41,7 @@ Para usar `nw` en su versión `119.0.6045.105` solo puedes:
 Finalmente, para que todo quede como si funcionara correctamente, puedes añadir las siguientes 2 líneas en tu `~/.bashrc`:
 
 ```sh
-alias nw=~/.node-webkit/nw/node_modules/.bin/nw
+alias nw=~/.node-webkit/nw/nwjs-sdk-v0.82.0-linux-x64/nw
 alias npm=~/.nodejs/node/bin/npm
 ```
 
